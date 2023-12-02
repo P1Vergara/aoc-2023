@@ -1,6 +1,6 @@
 calibration = 0
 
-def getCalibrations(line):
+def get_calibrations(line):
     global calibration
     lineNums = []
 
@@ -15,7 +15,7 @@ def getCalibrations(line):
 def readInput():
     with open('/Users/p1vergara/Repositorio/aoc-2023/day-01/input.txt') as input:
         for line in input.readlines():
-            getCalibrations(line)
+            get_calibrations(line)
     
     print('-------RESULT-------')
     print(calibration)
