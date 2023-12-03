@@ -31,7 +31,7 @@ def check_cubes(line):
     game_power_sum += (max(set_blues) * max(set_reds) * max(set_greens))
 
 def readInput():
-    with open('/Users/p1vergara/Repositorio/aoc-2023/day-02/input.txt') as input:
+    with open('input.txt') as input:
         for line in input.readlines():
             check_cubes(line)
     

@@ -13,7 +13,7 @@ def get_calibrations(line):
 
 
 def readInput():
-    with open('/Users/p1vergara/Repositorio/aoc-2023/day-01/input.txt') as input:
+    with open('input.txt') as input:
         for line in input.readlines():
             get_calibrations(line)
     

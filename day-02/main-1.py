@@ -30,7 +30,7 @@ def check_cubes(line):
         game_ids_sum += int(games[0].split(" ")[1])
 
 def readInput():
-    with open('/Users/p1vergara/Repositorio/aoc-2023/day-02/input.txt') as input:
+    with open('input.txt') as input:
         for line in input.readlines():
             check_cubes(line)
     
